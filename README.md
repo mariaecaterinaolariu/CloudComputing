@@ -9,3 +9,9 @@
 In the folder you will also find 3 json files metrics - which contains the latency of each hashtag, tokens - the tokens for tweepy / Twitter API, tweets - the text of the tweets.
 
 For the metrics section I measured the time it took for the python script to execute, including all 3 api calls.
+
+### app.js
+Here the API with the following endpoints:
+- /index which runs the python script
+- /api which returns only the text of the tweets
+- /api/tweets which returns the tweets.json 
