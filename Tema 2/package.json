@@ -1,0 +1,21 @@
+{
+  "name": "tema-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "mongodb": "^4.4.1",
+    "querystring": "^0.2.1",
+    "uuid": "^8.3.2"
+  }
+}
